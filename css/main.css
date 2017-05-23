@@ -1,7 +1,83 @@
+
 body {
-  padding-top: 5rem;
+	font-family: "Myriad Pro", Arial, sans-serif;
+	background-color: #F3EAEA;
 }
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
+
+.container {
+	background-color: #F3EAEA;
+}
+.navbar-inverse .navbar-brand {
+	color: #BEF3F8;
+}
+#bs-example-navbar-collapse-1{
+	background-color: #222;
+
+}
+#bs-example-navbar-collapse-1 a {
+	color: #fff;
+}
+#bs-example-navbar-collapse-1 a:focus {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: #111;
+}
+
+.container {
+	width: auto;
+}
+.row {
+	margin: 0 auto;
+
+}
+.indexelemente {
+	margin: 0 auto;
+	height: 230px;
+	color: #333;
+	vertical-align: bottom;
+	display: flex;
+  	align-items: flex-end;
+  	text-align: center;
+  }
+
+.img-rounded {
+	border-radius: 5px;
+	text-align: center;
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+}
+.img-rounded:hover {
+	opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+
+}
+
+#footer {
+	background-color: rgba(255, 255, 255, 0.8);
+	bottom: 0;
+	border-radius: 3px;
+	margin-top: 30px;
+	padding-top: 18px;
+	width: 98.5%;
+	height: 100px;
+	text-align: center;
+
+}
+
+
+.centertext {
+text-align: center;
+margin: 0 auto;
+font-size: 1.2em;
+font-weight: bold;
+color: #666;
 }
