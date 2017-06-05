@@ -1,83 +1,204 @@
-
-body {
-	font-family: "Myriad Pro", Arial, sans-serif;
-	background-color: #F3EAEA;
+#photos .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#photos .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#photos .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(76, 175, 80, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#photos .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+#photos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#photos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+#photos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#photos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+#photos .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+}
+#photos .portfolio-item .portfolio-caption h4 {
+  text-transform: none;
+  margin: 0;
+}
+#photos .portfolio-item .portfolio-caption p {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
+}
+#photos * {
+  z-index: 2;
 }
 
-.container {
-	background-color: #F3EAEA;
+#videos .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
 }
-.navbar-inverse .navbar-brand {
-	color: #BEF3F8;
+#videos .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
 }
-#bs-example-navbar-collapse-1{
-	background-color: #222;
-
+#videos .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(76, 175, 80, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
 }
-#bs-example-navbar-collapse-1 a {
-	color: #fff;
+#videos .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
 }
-#bs-example-navbar-collapse-1 a:focus {
-	color: #fff;
+#videos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
 }
-
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
-	background-color: #111;
+#videos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
 }
-
-.container {
-	width: auto;
+#videos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#videos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
 }
-.row {
-	margin: 0 auto;
-
+#videos .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
 }
-.indexelemente {
-	margin: 0 auto;
-	height: 230px;
-	color: #333;
-	vertical-align: bottom;
-	display: flex;
-  	align-items: flex-end;
-  	text-align: center;
-  }
-
-.img-rounded {
-	border-radius: 5px;
-	text-align: center;
-	position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 300px;
+#videos .portfolio-item .portfolio-caption h4 {
+  text-transform: none;
+  margin: 0;
 }
-.img-rounded:hover {
-	opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
-    cursor: pointer;
-    transition: all 0.4s ease 0s;
-
+#videos .portfolio-item .portfolio-caption p {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
 }
-
-#footer {
-	background-color: rgba(255, 255, 255, 0.8);
-	bottom: 0;
-	border-radius: 3px;
-	margin-top: 30px;
-	padding-top: 18px;
-	width: 98.5%;
-	height: 100px;
-	text-align: center;
-
+#videos * {
+  z-index: 2;
 }
 
+.portfolio-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+}
+.portfolio-modal .modal-content p.item-intro {
+  margin: 20px 0 30px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
 
-.centertext {
-text-align: center;
-margin: 0 auto;
-font-size: 1.2em;
-font-weight: bold;
-color: #666;
+.mebottomline {
+	border-bottom: black 2px solid;
+}
+
+.mecolor {
+	color: white;
 }
