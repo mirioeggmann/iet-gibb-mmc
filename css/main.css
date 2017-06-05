@@ -473,46 +473,6 @@ body {
   z-index: 2;
 }
 
-#videos .portfolio-item {
-  margin: 0 0 15px;
-  right: 0;
-}
-#videos .portfolio-item .portfolio-link {
-  display: block;
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
-}
-#videos .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(76, 175, 80, 0.5);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all ease 0.5s;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-}
-#videos .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1;
-}
-#videos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  font-size: 20px;
-  text-align: center;
-  top: 50%;
-  margin-top: -12px;
-  color: white;
-}
-#videos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-  margin-top: -12px;
-}
-#videos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#videos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-  margin: 0;
-}
 #videos .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
