@@ -8,4 +8,5 @@ A website for the modul 152 of the iet-gibb.
 - Font Awesome
 
 ## Presentation
-- https://1drv.ms/p/s!ArfrYyw5WsaTgXlWhwoTk-b9ibKt
+- [PPTX](https://1drv.ms/p/s!ArfrYyw5WsaTgXlWhwoTk-b9ibKt)
+- [PDF](docs/inf2014-6g-152-mmc.pdf)
