@@ -537,6 +537,7 @@ body {
   top: 25px;
   right: 25px;
   cursor: pointer;
+  z-index: 1;
 }
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
